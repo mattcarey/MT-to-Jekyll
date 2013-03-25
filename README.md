@@ -11,7 +11,9 @@ To export all your Movable Type entries into YAML files for importing into Jekyl
 
 3. Set the archive mapping to use the following (custom option) and keep publishing to 'static'
 
+```
 jekyll/<mt:entrydate format="%Y-%m-%d">-<mt:entrytitle dirify="-">.md
+```
 
 4. Save the template
 
